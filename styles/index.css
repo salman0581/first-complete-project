@@ -2,6 +2,9 @@
     font-family: "Fira Sans", serif;
     font-style: normal;
   }
+  .whole-background-color{
+    background-color: #F1F1F3;
+  }
   *{
     margin: 0;padding: 0;
   }
@@ -9,7 +12,7 @@
   .starting{
     display: flex;
     justify-content: space-between;
-    margin: 24px 150px 40px 150px;
+    margin: 24px 210px 40px 150px;
   }
   .first-title{
     font-size: 32px;
@@ -29,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     gap: 68px;
-    margin: 24px 150px 80px 150px;
+    margin: 24px 210px 80px 150px;
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 100px;
@@ -80,6 +83,7 @@
 
 .pillars-container{
     display: flex;
+    /* justify-content: space-evenly; */
     gap: 24px;
 }
 .pillars{
