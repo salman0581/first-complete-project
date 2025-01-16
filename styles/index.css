@@ -293,3 +293,85 @@ border-radius: 24px;
     gap: 32px;
     padding: 48px;
 }
+/* donation-section */
+.donation-section{
+    margin-top: 80px;
+}
+.donation{
+    padding-left:40px ;
+    padding-right: 40px;
+}
+.donation-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+}
+.donation-description{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+.donation-options{
+    margin: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    
+}
+.donation-option1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.donation-option1:hover{
+    background-color: #C6E4D6;
+    border-color: #a6d6a6;
+  }
+  .donation-option2{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    cursor: pointer;
+}
+.donation-option2:hover{
+    background-color: #FFFFFF;
+    border-color: #a6d6a6;
+  }
+  .donation-option3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    cursor: pointer;
+}
+.donation-option3:hover{
+    background-color: #FFFFFF;
+    border-color: #a6d6a6;
+  }
+  .donation-option4{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    cursor: pointer;
+}
+.donation-option4:hover{
+    background-color: #FFFFFF;
+    border-color: #a6d6a6;
+  }
